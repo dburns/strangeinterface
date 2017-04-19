@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "7"
+branches:
+  only:
+    - master
+install:
+  - yarn
+script:
+  - hexo clean && hexo generate
