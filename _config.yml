@@ -60,6 +60,11 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: hacker
+#
 # Hexo Filter Cleanup
 hfc_useref:
   enable: true
@@ -102,11 +107,6 @@ hfc_img:
 hfc_favicons:
   enable: false
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: hacker
-
 # Feed
 feed:
   type: rss2
@@ -114,6 +114,10 @@ feed:
   limit: 20
   hub:
   content: 'true'
+
+# Sitemap
+  sitemap:
+    path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
