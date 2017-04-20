@@ -1634,9 +1634,9 @@ hexo-cli@^1.0.2:
     object-assign "^4.1.0"
     tildify "^1.2.0"
 
-hexo-deployer-s3-cloudfront@^0.1.4:
+"hexo-deployer-s3-cloudfront@https://github.com/dburns/hexo-deployer-s3-cloudfront/tarball/master":
   version "0.1.4"
-  resolved "https://registry.yarnpkg.com/hexo-deployer-s3-cloudfront/-/hexo-deployer-s3-cloudfront-0.1.4.tgz#efa9eaa6edd093754020560f88dff2ae74d1ecfa"
+  resolved "https://github.com/dburns/hexo-deployer-s3-cloudfront/tarball/master#d29193f56e2e1810f85e8ff6502d089777589a01"
   dependencies:
     chalk "^1.0.0"
     cloudfront "^0.3.3"
