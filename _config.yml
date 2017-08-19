@@ -123,5 +123,6 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: s3-cloudfront
+  prefix: ''
   force_overwrite: true
   headers: {CacheControl: 'max-age=604800, public'}
